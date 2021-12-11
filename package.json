@@ -1,0 +1,30 @@
+{
+  "name": "react-ink-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "nodemon --no-stdin --exec babel-node src/index.js",
+    "start" : "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.3",
+    "fs-extra": "^10.0.0",
+    "ink": "^3.2.0",
+    "ink-select-input": "^4.2.1",
+    "ink-spinner": "^4.0.3",
+    "ink-text-input": "^4.0.2",
+    "react": "^17.0.2",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15"
+  }
+}

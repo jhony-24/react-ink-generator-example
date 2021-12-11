@@ -1,0 +1,8 @@
+version: 1.0
+templates:
+ - name: angular project
+   path: /angular 
+ - name: react project
+   path: /react
+ - name: vue project
+   path: /vue
